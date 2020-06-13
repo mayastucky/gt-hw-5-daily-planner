@@ -52,7 +52,8 @@ $(document).ready(function () {
 
   $("#9").append(localStorage.getItem("9"));
   $("#10").append(localStorage.getItem("10"));
-  $("#11").append(localStorage.getItem("12"));
+  $("#11").append(localStorage.getItem("11"));
+  $("#12").append(localStorage.getItem("12"));
   $("#13").append(localStorage.getItem("1"));
   $("#14").append(localStorage.getItem("2"));
   $("#15").append(localStorage.getItem("3"));
