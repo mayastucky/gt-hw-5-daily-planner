@@ -13,7 +13,9 @@ $(document).ready(function () {
 
   //this goes into the tag "textarea" from the HTML and runs a for each loop through it
   $("textarea").each(function () {
+    //returns the value (as an integer) of what is stored in each of the text areas
     var timeBlock = parseInt($(this).attr("id"));
+    //compares whatever number is in the text area to the current hour of the day
     if (timeBlock < hour) {
       $(this).addClass("past");
     } else if (timeBlock === hour) {
@@ -23,7 +25,7 @@ $(document).ready(function () {
     }
   });
 
-  //save to local storage
+  //grabs the variables from HTML and creates new variables
   var nine = $("#9");
   var ten = $("#10");
   var eleven = $("#11");
